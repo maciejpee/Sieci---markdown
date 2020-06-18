@@ -30,7 +30,6 @@ Tablice routingów na poszczególnych routerach
 -------------------------
 | Nazwa routera | Tablica routingu | 
 | ------------- |:-------------:| 
-| Router 0 | 192.168.8.0/22 via 192.168.1.6| 
-             192.168.12./22 via 192.168.1.10
+| Router 0 | 192.168.8.0/22 via 192.168.1.6 <br> 192.168.12.0/22 via 192.168.1.10| 
 | Router 2  |  192.168.8.0/22 | 
 | Router 3  |  192.168.12.0/22 | 
