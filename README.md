@@ -1,4 +1,4 @@
-# Sieci---markdown
+# Zadanie 1 - charakterystka adresacji 
 
 Adresy poszczególnych sieci IP
 -------------------------
@@ -7,3 +7,30 @@ Adresy poszczególnych sieci IP
 | LAN 1 | 192.168.4.0/22 | 
 | LAN 2  |  192.168.8.0/22 | 
 | LAN 3  |  192.168.12.0/22 | 
+
+Adresy linków pomiędzy ruterami
+-------------------------
+
+| Sieć | 192.168.1.4/30 | 
+| ------------- |:-------------:|
+| Router 0  |  192.168.1.5 | 
+| Router 3  |  192.168.1.6 | 
+
+| Sieć | 192.168.1.8/30 | 
+| ------------- |:-------------:|
+| Router 0  |  192.168.1.9 | 
+| Router 2  |  192.168.1.10 | 
+
+| Sieć | 192.168.1.12/30 | 
+| ------------- |:-------------:|
+| Router 3  |  192.168.1.13 | 
+| Router 2  |  192.168.1.14 |
+
+Tablice routingów na poszczególnych routerach
+-------------------------
+| Nazwa routera | Tablica routingu | 
+| ------------- |:-------------:| 
+| Router 0 | 192.168.8.0/22 via 192.168.1.6| 
+             192.168.12./22 via 192.168.1.10
+| Router 2  |  192.168.8.0/22 | 
+| Router 3  |  192.168.12.0/22 | 
