@@ -35,6 +35,5 @@ Chain INPUT (policy ACCEPT)<br>target  prot opt source  destination
 
 Chain OUTPUT (policy ACCEPT)<br>target  prot opt source       destination
 
-Chain POSTROUTING (policy ACCEPT)<br>target  prot opt source       destination
-MASQUERADE all -- anywhere     anywhere
+Chain POSTROUTING (policy ACCEPT)<br>target  prot opt source       destination<br>MASQUERADE all -- anywhere     anywhere
 
