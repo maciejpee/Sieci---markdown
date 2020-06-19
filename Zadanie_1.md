@@ -40,7 +40,7 @@ Chain POSTROUTING (policy ACCEPT)<br>target prot opt source destination<br>MASQU
 Konfiguracja DHCP (/etc/dhcp/dhcpd.conf)
 -------------------------
 
-subnet 172.16.4.0 netmask 255.255.252.0 {
+subnet 172.16.4.0 netmask 255.255.252.0 {<br>
 range 172.16.4.4 172.16.7.255;
 }
 
