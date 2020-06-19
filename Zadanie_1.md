@@ -29,13 +29,13 @@ Oprogramowanie wykorzystane do realizacji poszczególnych wymagań
 Konfiguracja NAT z iptables
 -------------------------
 
-Chain PREROUTING (policy ACCEPT)<br>target&nbsp;&nbsp;prot opt source&nbsp;&nbsp;destination
+Chain PREROUTING (policy ACCEPT)<br>target prot opt source destination
 
-Chain INPUT (policy ACCEPT)<br>target&nbsp;&nbsp;prot opt source&nbsp;&nbsp;destination
+Chain INPUT (policy ACCEPT)<br>target prot opt source destination
 
-Chain OUTPUT (policy ACCEPT)<br>target&nbsp;&nbsp;prot opt source&nbsp;&nbsp;destination
+Chain OUTPUT (policy ACCEPT)<br>target prot opt source destination
 
-Chain POSTROUTING (policy ACCEPT)<br>target&nbsp;&nbsp;prot opt source&nbsp;&nbsp;destination<br>MASQUERAD all -- anywhere&nbsp;&nbsp;anywhere
+Chain POSTROUTING (policy ACCEPT)<br>target prot opt source destination<br>MASQUERAD all -- anywhere anywhere
 
 Konfiguracja DHCP (/etc/dhcp/dhcpd.conf)
 -------------------------
