@@ -1,9 +1,12 @@
 # Zadanie 1 
 
-Adresy sieci IP
+Konfiguracja sieci
 -------------------------
-| Nazwa sieci | Adres sieci | 
+| Parametr | wartość | 
 | ------------- |:-------------:| 
-| LAN 1 | 192.168.4.0/22 | 
-| LAN 2  |  192.168.12.0/22 | 
-| LAN 3  |  192.168.8.0/22 | 
+| Adres posieci | 172.16.4.0/22 | 
+| Brama  | 172.16.4.1 | 
+| DNS 1  |  172.16.4.1 |
+| DNS 2  |  8.8.8.8 |
+| DNS 3  |  8.8.4.4 |
+
