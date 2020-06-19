@@ -31,13 +31,10 @@ Konfiguracja NAT z iptables
 
 Chain PREROUTING (policy ACCEPT)<br>target  prot opt source               destination
 
-Chain INPUT (policy ACCEPT)
-target  prot opt source       destination
+Chain INPUT (policy ACCEPT)<br>target  prot opt source  destination
 
-Chain OUTPUT (policy ACCEPT)
-target  prot opt source       destination
+Chain OUTPUT (policy ACCEPT)<br>target  prot opt source       destination
 
-Chain POSTROUTING (policy ACCEPT)
-target  prot opt source       destination
+Chain POSTROUTING (policy ACCEPT)<br>target  prot opt source       destination
 MASQUERADE all -- anywhere     anywhere
 
