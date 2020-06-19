@@ -41,6 +41,18 @@ Konfiguracja DHCP (/etc/dhcp/dhcpd.conf)
 -------------------------
 
 subnet 172.16.4.0 netmask 255.255.252.0 {<br>
-range 172.16.4.4 172.16.7.255;
+range 172.16.4.4 172.16.7.255;<br>
+option routers 172.16.4.1;<br>
+option domain-name-servers 172.16.4.1 , 8.8.8.8 , 8.8.4.4;<br>
+}
+
+host printer {<br>
+hardware ethernet 08:00:27:AC:B0:E3;<br>
+fixed-address 172.16.4.2;<br>
+}
+
+host server {<br>
+hardware ethernet 08:00:27:A8:99:4d;<br>
+fixed-address 172.16.4.3;<br>
 }
 
