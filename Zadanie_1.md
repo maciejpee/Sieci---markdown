@@ -29,8 +29,7 @@ Oprogramowanie wykorzystane do realizacji poszczególnych wymagań
 Konfiguracja NAT z iptables
 -------------------------
 
-Chain PREROUTING (policy ACCEPT)
-target  prot opt source       destination
+Chain PREROUTING (policy ACCEPT)<br>target  prot opt source       destination
 
 Chain INPUT (policy ACCEPT)
 target  prot opt source       destination
