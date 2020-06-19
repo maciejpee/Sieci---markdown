@@ -56,3 +56,10 @@ hardware ethernet 08:00:27:A8:99:4d;<br>
 fixed-address 172.16.4.3;<br>
 }
 
+Konfiguracja DNS (/etc/hosts)
+-------------------------
+127.0.0.1 localhost.my.domain localhost localhost.localdomain localhost 
+::1 localhost localhost.localdomain
+172.16.4.1 router.mojaorganizacja.pl
+172.16.4.2 drukarka.mojaorganizacja.pl
+172.16.4.3 erp.mojaorganizacja.pl
