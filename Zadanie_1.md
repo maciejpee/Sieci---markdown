@@ -1,5 +1,10 @@
 # Zadanie 1 
 
+Charakterystyka rozwiązania
+------------------------- 
+
+Adres podsieci to 172.16.4.0/22. Jedno urządzenie zawiera w sobie funkcje routera, serwera DHCP oraz bramy NAT za pomocą wybranych oprogramowań Linux Alpine. Nadaje stałe adresy drukarce oraz serwerowi, lokalizując je po adresie MAC, reszta adresów jest nadawana automatycznie z zakresu od 172.16.4.4 do 172.16.7.255. Za pomocą dnsmasq wprowadzona jest translacja pomiędzy adresami IP oraz nazwami domenowymi dla kluczowych zasobów. Brama NAT jest skonfigurowana tak aby każde urządzenie miało dostęp do sieci internet.
+
 Konfiguracja sieci
 -------------------------
 | Parametr | wartość | 
